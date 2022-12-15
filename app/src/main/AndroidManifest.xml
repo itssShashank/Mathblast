@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sam19.mathblast">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".easyadd" />
+        <activity android:name=".dashadd" />
+        <activity android:name=".dashsub" />
+        <activity android:name=".dashmul" />
+        <activity android:name=".dashmod" />
+        <activity android:name=".dashdiv" />
+        <activity android:name=".dashtest" />
+        <activity android:name=".easyaddmed" />
+        <activity android:name=".easyaddhrd" />
+        <activity android:name=".easymull" />
+        <activity android:name=".medmull" />
+        <activity android:name=".hrdmull" />
+        <activity android:name=".easydiv" />
+        <activity android:name=".meddiv" />
+        <activity android:name=".hrddiv" />
+        <activity android:name=".easymod" />
+        <activity android:name=".hrdmod" />
+        <activity android:name=".medmod" />
+        <activity android:name=".easysub" />
+        <activity android:name=".medsub" />
+        <activity android:name=".hrdsub" />
+        <activity android:name=".test" />
+        <activity android:name=".Splash" />
+        <activity android:name=".table"></activity>
+    </application>
+
+</manifest>

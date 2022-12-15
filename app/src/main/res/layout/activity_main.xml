@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/aaaa"
+    >
+
+   <Button
+       android:id="@+id/dashadd"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="0dp"
+       android:layout_marginTop="30dp"
+       android:text="add"
+       android:textSize="30dp" />
+
+   <Button
+       android:id="@+id/dashsub"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="0dp"
+       android:text="subtract"
+       android:textSize="30dp" />
+
+   <Button
+       android:id="@+id/dashmul"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="0dp"
+       android:text="multiply"
+       android:textSize="30dp" />
+
+   <Button
+       android:id="@+id/dashdiv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="0dp"
+       android:text="division"
+       android:textSize="30dp" />
+
+   <Button
+       android:id="@+id/dashmod"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="0dp"
+       android:text="modulo"
+       android:textSize="30dp"
+
+       />
+   <Button
+       android:id="@+id/tablee"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="table"
+
+       android:textSize="30dp" />
+
+   <Button
+       android:id="@+id/dashtest"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="test"
+
+       android:textSize="30dp" />
+
+</LinearLayout>
